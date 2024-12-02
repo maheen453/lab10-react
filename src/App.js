@@ -11,15 +11,14 @@ function App() {
           how I built the page, and the challenges I faced.
         </p>
         <h2>Installation</h2>
-        <p>React was installed using <code>npx create-react-app</code>.</p>
+        <p>React was installed using <code>npx create-react-app my-react-site</code>.</p>
         <h2>How I Built This Page</h2>
-        <p>I used React's component-based structure to create the content.</p>
+        <p>I navigated the directories that were made during the create-react-app command to find App.js and modified it to include this text. Then I added styling in App.css.</p>
+        <p>I connected to GitHub by using the repository automatically initialized by React during the create-react-app command and deployed the project directly from that GitHub repository using Netlify.</p>
         <h2>Challenges and Solutions</h2>
         <ul>
-          <li><strong>Challenge 1:</strong> Understanding JSX syntax.</li>
+          <li><strong>Challenge:</strong> Knowing what commands to use and how to navigate the React project directories.</li>
           <li><strong>Solution:</strong> Referenced React documentation and tutorials.</li>
-          <li><strong>Challenge 2:</strong> Ensuring compatibility with browsers.</li>
-          <li><strong>Solution:</strong> Used React's built-in features for cross-browser compatibility.</li>
         </ul>
       </header>
     </div>
